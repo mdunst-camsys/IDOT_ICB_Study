@@ -41,9 +41,9 @@ library(plotly)
 
 USE_SYNTHETIC_DATA <- FALSE   # set FALSE once OD_DATA_PATH / CENTROID_PATH are real
 
-OD_DATA_PATH <- "data\\full_od_weekday_082826.rds"           # .rds (recommended) or .csv — your 53-col table
-CENTROID_PATH <- "data\\CenPop2020_Mean_TR17.txt" # Census 2020 Centers of Population, IL rows — STATEFP/COUNTYFP/TRACTCE/LATITUDE/LONGITUDE
-UZA_CROSSWALK_PATH <- "data\\Tract - County - UZA Lookup.xlsx"
+OD_DATA_PATH <- "data/full_od_weekday_082826.rds"           # .rds (recommended) or .csv — your 53-col table
+CENTROID_PATH <- "data/CenPop2020_Mean_TR17.txt" # Census 2020 Centers of Population, IL rows — STATEFP/COUNTYFP/TRACTCE/LATITUDE/LONGITUDE
+UZA_CROSSWALK_PATH <- "data/Tract - County - UZA Lookup.xlsx"
 
 EXCLUDE_INTRATRACT_TRIPS <- TRUE  # drop origin_fips == destination_fips (degenerate zero-length lines)
 
