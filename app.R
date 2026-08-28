@@ -19,9 +19,9 @@
 # Toggle USE_SYNTHETIC_DATA below to run this against your real data. With
 # it TRUE (default) the app runs standalone on made-up data, same as before.
 # =============================================================================
-
-setwd("C:/Users/mdunst/OneDrive - Cambridge Systematics/Documents/GitHub/IDOT_ICB_Study")
-rsconnect::writeManifest()
+# 
+# setwd("C:/Users/mdunst/OneDrive - Cambridge Systematics/Documents/GitHub/IDOT_ICB_Study")
+# rsconnect::writeManifest()
 
 library(shiny)
 library(tidyr)
